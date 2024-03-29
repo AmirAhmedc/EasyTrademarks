@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "MFORTQUINSY1";
+    src: url("./fonts/FORTQUINSY1.otf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+
+
+
+.owl-stage {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.owl-carousel img {
+    max-width: 70%; 
+    max-height: 130px;
+    width: auto; 
+  }
+section {
+    overflow: hidden;
+    max-width: 100vw;
+    position: relative;
+}
+
+section {
+    h2 {
+        font-size: 1.3rem !important;
+        font-weight: 400 !important;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 2.5rem !important;
+        font-weight: 700 !important;
+    }
+}
+
+// helper style
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+.pb-6{
+    padding-bottom: 6rem !important;
+}
+.pe-6{
+    padding-right: 6rem !important;
+}
+.pt-6{
+    padding-top: 6rem !important;
+}
+.ps-6{
+    padding-left: 6rem !important;
+}
+.py-6{
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+
+}
+.px-6{
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+
+}
+.ps-sm-6{
+    padding-left: 6rem !important;
+}
+.pe-sm-6{
+    padding-right: 6rem !important;
+}
+.gap-5 {
+    gap: 5px;
+}
+.gap-10 {
+    gap: 10px;
+}
+.gap-15 {
+    gap: 15px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-25 {
+    gap: 25px;
+}
+.gap-30 {
+    gap: 30px;
+}
+.object-fit-contain {
+    margin-right: 1rem;
+    object-fit: contain;
+}
+.object-fit-cover {
+    object-fit: cover;
+}
+
+
+.max-400 {
+    .input_upload {
+        max-width: 320px;
+    }
+    max-width: 500px;
+}
+.max-300 {
+    .input_upload {
+        max-width: 230px;
+    }
+    max-width: 400px;
+}
+.max-200 {
+    .input_upload {
+        max-width: 200px;
+    }
+    max-width: 300px;
+}
+.max-100 {
+    .input_upload {
+        max-width: 100px;
+    }
+    max-width: 130px;
+}
+.blue {
+    color: #3160ff;
+}
+
+
+.global-section {
+    .contain {
+        background: $grey-color;
+        border-bottom-right-radius: 3.125rem;
+        border-top-right-radius: 3.125rem;
+
+        // @media screen and (max-width: 62rem) {
+        //   border-bottom-right-radius: 0;
+        //   border-top-right-radius: 0;
+        // }
+
+        .content {
+            background: transparent;
+        }
+    }
+}
+
+
+.robot_content {
+    img {
+        // transform: rotateY(180deg);
+        position: absolute;
+        right: 0;
+        bottom: -5px;
+        z-index: 9;
+        height: 140%;
+        @include resp(992, min) {
+            height: 155%;
+        }
+        @include resp(991) {
+            right: -50px;
+        }
+    }
+}
+
+

@@ -1,0 +1,66 @@
+// global style
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 3.25rem;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div, a, strong, label, textarea, input, button {
+    font-family: "Metropolis-SemiBold", sans-serif;
+}
+h5, .h5 {
+    font-size: 1.25rem;
+    color: $values-color;
+
+}
+
+p {
+    margin-bottom: 30px;
+}
+.gap-20 {
+    gap: 20px !important;
+}
+
+.red_color {
+    color: #aa1a1a;
+}
+
+.rounded-1 {
+    border-radius: 1rem;
+}
+
+.border-t-r-radius {
+    border-radius: 0;
+    border-top-right-radius: 3.125rem !important;
+}
+.border-b-r-radius {
+    border-radius: 0;
+    border-bottom-right-radius: 3.125rem !important;
+}
+.border-t-l-radius {
+    border-radius: 0;
+    border-top-left-radius: 3.125rem !important;
+}
+.border-b-l-radius {
+    border-radius: 0;
+    border-bottom-left-radius: 3.125rem !important;
+}
+
+.min-h{
+    min-height:50px;
+}
+.max-xy{
+    height:40px;
+    width:40px
+}
+
+.ps-s{
+    padding-left: 4.5rem;
+}
+
+.section-title{
+    font-size: 3.4rem !important;
+    margin-bottom: 1rem;
+}
