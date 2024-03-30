@@ -2,7 +2,7 @@
 // import '../node_modules/owl.carousel';
 // import $ from 'jquery'; // Import jQuery
 
-
+console.log("xxxxxxxxxxxx");
 
 // Initialize Owl Carousel
 $(document).ready(function(){
